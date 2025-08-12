@@ -59,6 +59,37 @@ h2 {
     font-weight: 500;
 }
 
+/* Special title styles */
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    font-family: var(--font-heading);
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-family: var(--font-heading);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    font-family: var(--font-heading);
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -458,8 +489,19 @@ footer {
         margin: 1rem 0;
     }
     
-    .hero h2 {
+    .hero-title {
+        font-size: 1.8rem;
+        letter-spacing: 0.08em;
+    }
+    
+    .page-title {
+        font-size: 1.8rem;
+        letter-spacing: 0.06em;
+    }
+    
+    .section-title {
         font-size: 1.5rem;
+        letter-spacing: 0.04em;
     }
     
     .hero p {
@@ -499,8 +541,19 @@ footer {
 
 /* Desktop Styles */
 @media (min-width: 1024px) {
-    .hero h2 {
+    .hero-title {
+        font-size: 3rem;
+        letter-spacing: 0.12em;
+    }
+    
+    .page-title {
+        font-size: 3rem;
+        letter-spacing: 0.1em;
+    }
+    
+    .section-title {
         font-size: 2.5rem;
+        letter-spacing: 0.06em;
     }
     
     .hero p {
