@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>所在地 - Cafe VibeCording</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="brand">
+                    <h1><a href="index.html">Cafe VibeCording</a></h1>
+                </div>
+                <button class="menu-toggle" aria-label="メニューを開く">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="events.html" class="nav-link">イベント案内</a></li>
+                    <li><a href="about.html" class="nav-link">当店の特色</a></li>
+                    <li><a href="menu.html" class="nav-link">人気メニュー</a></li>
+                    <li><a href="location.html" class="nav-link active">所在地</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h2>所在地・アクセス</h2>
+                <p>東京駅から徒歩1分の好立地</p>
+            </div>
+        </section>
+
+        <section class="location-section">
+            <div class="container">
+                <div class="location-grid">
+                    <!-- 店舗情報 -->
+                    <div class="location-info">
+                        <h3>店舗情報</h3>
+                        
+                        <div class="info-card">
+                            <div class="info-item">
+                                <span class="material-icons info-icon">place</span>
+                                <div class="info-content">
+                                    <h4>住所</h4>
+                                    <p>〒123-4567<br>東京都千代田区桜満開1-1-1</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <span class="material-icons info-icon">schedule</span>
+                                <div class="info-content">
+                                    <h4>営業時間</h4>
+                                    <p>月曜日 〜 金曜日<br><strong>13:00 〜 17:00</strong></p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <span class="material-icons info-icon">event_busy</span>
+                                <div class="info-content">
+                                    <h4>定休日</h4>
+                                    <p>土曜日・日曜日・祝日</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <span class="material-icons info-icon">directions_walk</span>
+                                <div class="info-content">
+                                    <h4>アクセス</h4>
+                                    <p>JR東京駅 丸の内中央口より徒歩1分<br>
+                                    東京メトロ丸ノ内線 東京駅より徒歩2分</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 地図 -->
+                    <div class="map-container">
+                        <h3>地図</h3>
+                        <div class="map-wrapper">
+                            <!-- Google Maps Embed -->
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853734164!2d139.7638735!3d35.6812405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1692087600000!5m2!1sja!2sjp"
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Cafe VibeCording 所在地">
+                            </iframe>
+                        </div>
+                        <p class="map-note">
+                            <small>
+                                ※ 地図はイメージです。正確な位置は実際とは異なる場合があります。<br>
+                                詳細なアクセス方法は、お電話またはSNSにてお問い合わせください。
+                            </small>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- アクセス詳細 -->
+                <div class="access-details">
+                    <h3>詳細アクセス情報</h3>
+                    <div class="access-grid">
+                        <div class="access-item">
+                            <h4>電車でお越しの場合</h4>
+                            <ul>
+                                <li><strong>JR東京駅</strong> 丸の内中央口より徒歩1分</li>
+                                <li><strong>東京メトロ丸ノ内線</strong> 東京駅より徒歩2分</li>
+                                <li><strong>東京メトロ東西線</strong> 大手町駅より徒歩5分</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h4>お車でお越しの場合</h4>
+                            <ul>
+                                <li>専用駐車場はございません</li>
+                                <li>近隣のコインパーキングをご利用ください</li>
+                                <li>平日は公共交通機関でのご来店をおすすめします</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="access-item">
+                            <h4>自転車でお越しの場合</h4>
+                            <ul>
+                                <li>店舗前に駐輪スペースあり（2台まで）</li>
+                                <li>長時間のご利用の際は事前にお声かけください</li>
+                                <li>盗難等については責任を負いかねます</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Cafe VibeCording</h3>
+                    <p>モダンで洗練された空間で、特別なひとときを</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/cafevibecording" class="social-link">Instagram</a>
+                    <a href="https://twitter.com/cafevibecording" class="social-link">X (Twitter)</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cafe VibeCording. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

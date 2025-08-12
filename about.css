@@ -1,0 +1,274 @@
+/* About Page Specific Styles */
+
+.about-section {
+    padding: 4rem 0;
+}
+
+.about-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+.about-content {
+    padding: 2rem;
+}
+
+.about-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+    color: var(--accent-color);
+}
+
+.material-icons.about-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.about-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.feature-list {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.feature-list li {
+    padding: 0.5rem 0;
+    color: var(--text-gray);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.about-image {
+    height: 300px;
+    background: linear-gradient(45deg, var(--accent-color), var(--primary-color));
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.placeholder-image {
+    color: var(--text-light);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.facilities-section {
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.facilities-section h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.facilities-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.facility-item {
+    background: white;
+    padding: 2rem 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.facility-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.facility-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.material-icons.facility-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.facility-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.facility-item p {
+    color: var(--text-gray);
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.philosophy-section {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.philosophy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.philosophy-content h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.philosophy-content blockquote {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+    font-style: italic;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.philosophy-content blockquote::before {
+    content: '"';
+    font-size: 4rem;
+    color: var(--accent-color);
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    font-family: var(--font-heading);
+}
+
+.philosophy-content blockquote p {
+    margin-bottom: 1rem;
+}
+
+.philosophy-content cite {
+    display: block;
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) {
+    .about-item {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    
+    .about-item.reverse {
+        direction: rtl;
+    }
+    
+    .about-item.reverse .about-content,
+    .about-item.reverse .about-image {
+        direction: ltr;
+    }
+    
+    .facilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .about-item {
+        margin-bottom: 5rem;
+    }
+    
+    .about-content {
+        padding: 3rem;
+    }
+    
+    .about-content h3 {
+        font-size: 2.2rem;
+    }
+    
+    .about-content p {
+        font-size: 1.1rem;
+    }
+    
+    .facilities-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .philosophy-content blockquote {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile Specific */
+@media (max-width: 768px) {
+    .about-item {
+        margin-bottom: 3rem;
+    }
+    
+    .about-content {
+        padding: 1.5rem;
+    }
+    
+    .about-image {
+        height: 200px;
+    }
+    
+    .placeholder-image {
+        font-size: 1.2rem;
+    }
+    
+    .facilities-section {
+        padding: 2rem 1rem;
+    }
+    
+    .philosophy-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .philosophy-content blockquote {
+        font-size: 1.1rem;
+    }
+    
+    .philosophy-content blockquote::before {
+        font-size: 3rem;
+        top: -0.5rem;
+        left: -0.5rem;
+    }
+}

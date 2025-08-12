@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人気メニュー - Cafe VibeCording</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="brand">
+                    <h1><a href="index.html">Cafe VibeCording</a></h1>
+                </div>
+                <button class="menu-toggle" aria-label="メニューを開く">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="events.html" class="nav-link">イベント案内</a></li>
+                    <li><a href="about.html" class="nav-link">当店の特色</a></li>
+                    <li><a href="menu.html" class="nav-link active">人気メニュー</a></li>
+                    <li><a href="location.html" class="nav-link">所在地</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h2>人気メニュー</h2>
+                <p>厳選素材を使用したこだわりの逸品</p>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <div class="container">
+                <!-- ドリンク -->
+                <div class="menu-category">
+                    <h3><span class="material-icons category-icon">local_cafe</span>おすすめドリンク</h3>
+                    
+                    <div class="menu-item featured">
+                        <div class="menu-image">
+                            <img src="images/cafe_brend.png" alt="VibeCording ブレンド">
+                        </div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>VibeCording オリジナルブレンド</h4>
+                            </div>
+                            <div class="price-container">
+                                <span class="price">¥650<span class="tax">(税込)</span></span>
+                            </div>
+                            <div class="popular-badge-container">
+                                <span class="popular-badge-inline">人気No.1</span>
+                            </div>
+                            <p class="menu-description">
+                                ブラジル、コロンビア、エチオピアの豆を絶妙にブレンド。
+                                深いコクと上品な酸味のバランスが取れた、当店自慢のシグネチャーコーヒーです。
+                            </p>
+                            <div class="menu-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">焙煎度</span>
+                                    <span class="detail-value">中深煎り</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">風味</span>
+                                    <span class="detail-value">チョコレート、ナッツ</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">おすすめ</span>
+                                    <span class="detail-value">朝食・デザートタイム</span>
+                                </div>
+                            </div>
+                            <div class="menu-tags">
+                                <span class="tag">オリジナル</span>
+                                <span class="tag">中深煎り</span>
+                                <span class="tag">HOT/ICE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- フード -->
+                <div class="menu-category">
+                    <h3><span class="material-icons category-icon">restaurant</span>おすすめフード</h3>
+                    
+                    <div class="menu-item featured">
+                        <div class="menu-image">
+                            <img src="images/cafe_toast.png" alt="アボカドトースト">
+                        </div>
+                        <div class="menu-content">
+                            <div class="menu-header">
+                                <h4>アボカド & グリル野菜のオープンサンド</h4>
+                            </div>
+                            <div class="price-container">
+                                <span class="price">¥1,280<span class="tax">(税込)</span></span>
+                            </div>
+                            <div class="popular-badge-container">
+                                <span class="popular-badge-inline recommend">おすすめ</span>
+                            </div>
+                            <p class="menu-description">
+                                国産アボカドと季節のグリル野菜を、自家製全粒粉パンにのせた栄養満点のオープンサンド。
+                                特製バジルソースとモッツァレラチーズが絶妙にマッチした一品です。
+                            </p>
+                            <div class="menu-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">パン</span>
+                                    <span class="detail-value">自家製全粒粉パン</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">野菜</span>
+                                    <span class="detail-value">季節野菜（無農薬）</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">サイド</span>
+                                    <span class="detail-value">ミニサラダ付き</span>
+                                </div>
+                            </div>
+                            <div class="menu-tags">
+                                <span class="tag">ヘルシー</span>
+                                <span class="tag">野菜たっぷり</span>
+                                <span class="tag">自家製パン</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- その他のメニューについて -->
+                <div class="menu-notice">
+                    <h4>その他のメニューについて</h4>
+                    <p>季節限定メニューや軽食類も豊富にご用意しております。</p>
+                    <p>最新のメニュー情報は、店頭のメニューボードまたは<a href="#" class="social-link-text">Instagram</a>をご確認ください。</p>
+                    
+                    <div class="menu-info">
+                        <div class="info-item">
+                            <h5>アレルギー対応</h5>
+                            <p>卵・乳製品・小麦のアレルギーをお持ちの方は、事前にお声かけください。可能な限り対応いたします。</p>
+                        </div>
+                        <div class="info-item">
+                            <h5>テイクアウト</h5>
+                            <p>ドリンク類はテイクアウト可能です。専用カップで熱々・冷え冷えの状態でお持ち帰りいただけます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Cafe VibeCording</h3>
+                    <p>モダンで洗練された空間で、特別なひとときを</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/cafevibecording" class="social-link">Instagram</a>
+                    <a href="https://twitter.com/cafevibecording" class="social-link">X (Twitter)</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cafe VibeCording. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
