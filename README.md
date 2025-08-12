@@ -35,6 +35,15 @@
 4. **人気メニュー** (`menu.html`) - おすすめドリンク・フード
 5. **所在地** (`location.html`) - アクセス情報、Google Maps
 
+## デプロイ・公開
+
+### Vercel（推奨）
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/takamaru2022/cafe_001)
+
+### GitHub Pages
+設定: Repository Settings → Pages → Source: "Deploy from a branch" → Branch: "main"
+- URL: `https://takamaru2022.github.io/cafe_001/`
+
 ## ローカル環境での実行
 
 ```bash
